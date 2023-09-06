@@ -1,0 +1,39 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    /*background-color:rgb(12, 7, 26);*/
+}
+
+iframe{
+    width: 100%;
+    margin-right: auto;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+}
+
+h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 4rem;
+    margin-top: 3em;
+    margin-bottom: 0.3em;
+}
+
+p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+h1,p{
+    text-align: left;
+    margin-left: 144px;
+    clip-path: polygon(0 0,100% 0,100% 100%,0% 100%);
+}
